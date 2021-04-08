@@ -1,0 +1,38 @@
+.sidebaroptions {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    color: grey;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sidebaroptions > h3 {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.sidebaroptions:hover >p,
+.sidebaroptions:hover,
+.sidebaroptions:hover > h3,
+.sidebaroption--active,
+.sidebaroption--active > p,
+.sidebaroption--active > h3 {
+    background-color: white;
+    color: red;
+    font-weight: 800 !important;
+
+}
+
+.sidebaroptions > p {
+    display: none;
+    font-weight: 300;
+}
+
+.sidebaroption--active > p {
+    display: inline  !important;
+}
+.sidebaroptions:hover > p {
+    display: inline;
+}
